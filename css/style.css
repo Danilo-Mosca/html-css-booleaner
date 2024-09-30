@@ -25,7 +25,8 @@ h1 {
 }
 /* Colore del testo evidenziato */
 .span-yellow {
-    color: #ffff00;
+    background-color: #ffff00;
+
 }
 .span-sky-blue {
     color: #20a9e5;
@@ -36,11 +37,20 @@ h1 {
     color: #808080;
 }
 
+/* Tabella */
+
+/* headere della tabella */
+.table-head{
+    background-color: #20a9e5;
+    color: white;
+}
+
+/* Colore delle righe alternate */
 .alternative-table-row-color {
-    color: #b1e5f2;
+    background-color: #b1e5f2;
 }
 
 /* Margine lato sinistro per il main e l'aside */
 main, aside {
-        margin-left: 4px;
+        margin-left: 5px;
 }
