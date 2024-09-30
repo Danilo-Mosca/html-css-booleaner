@@ -23,11 +23,13 @@ h1 {
 .image-description {
     font-size: 14px;
 }
+
 /* Colore del testo evidenziato */
 .span-yellow {
     background-color: #ffff00;
 
 }
+
 .span-sky-blue {
     color: #20a9e5;
 }
@@ -37,10 +39,28 @@ h1 {
     color: #808080;
 }
 
-/* Tabella */
+/* padding e margin di CSS unordered list */
+ul,
+li {
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+/* fine css unordered list */
+
+
+/* CSS Tabella*/
 
 /* headere della tabella */
-.table-head{
+tr {
+    margin: auto;
+}
+td {
+    height: 80px;
+    vertical-align: center;
+}
+
+.table-head {
     background-color: #20a9e5;
     color: white;
 }
@@ -50,7 +70,27 @@ h1 {
     background-color: #b1e5f2;
 }
 
-/* Margine lato sinistro per il main e l'aside */
+/* ----------- Fine CSS tabella -------------
+
+/* Margine lato sinistro per il main e l'aside
 main, aside {
-        margin-left: 5px;
+        padding: 15px 5px;
+        
+} */
+
+/* Margin e padding delle varie sezioni */
+section {
+    /* 15px per top e bottom e 5px per right e left */
+    margin: 15px 5px;
+
+}
+
+/* Padding della sezione aside (footer) */
+aside {
+    margin: 25px 5px;
+}
+
+/* Separo con una spaziatura maggiore le due immagini del footer */
+aside div {
+    margin-top: 10px;
 }
