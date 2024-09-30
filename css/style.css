@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Logo e sfondo header */
+header {
+    height: 200px;
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+}
+
+.image-header {
+    width: 20%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+/* Colore del testo evidenziato */
+.span-yellow {
+    color: #ffff00;
+}
+.span-sky-blue {
+    color: #20a9e5;
+}
+
+/* Colore testo grigio */
+.grey-text {
+    color: #808080;
+}
+
+.alternative-table-row-color {
+    color: #b1e5f2;
+}
