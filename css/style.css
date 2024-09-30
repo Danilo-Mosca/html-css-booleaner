@@ -1,8 +1,11 @@
+/* Cnfigurazioni preliminari */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* fine configurazioni preliminari */
 
 /* Logo e sfondo header */
 header {
@@ -40,8 +43,11 @@ h1 {
 }
 
 /* padding e margin di CSS unordered list */
-ul,
-li {
+ul {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+ul, li {
     padding-left: 5px;
     margin-left: 5px;
 }
@@ -51,18 +57,36 @@ li {
 
 /* CSS Tabella*/
 
-/* headere della tabella */
+/* nascondo i bordi della tabella */
+table {
+    border-collapse: collapse;
+}
+
+/* header della tabella */
 tr {
     margin: auto;
 }
+
 td {
+
     height: 80px;
     vertical-align: center;
 }
 
+/* Imposto le prime due colonne della tabella al 25% del totale */
+.cell-width {
+    width: 20%;
+}
+
 .table-head {
+    text-align: left;
     background-color: #20a9e5;
     color: white;
+}
+
+/* Allineamento testo della terza colonna della tabella */
+td.text-align {
+    vertical-align: baseline;
 }
 
 /* Colore delle righe alternate */
@@ -72,16 +96,11 @@ td {
 
 /* ----------- Fine CSS tabella -------------
 
-/* Margine lato sinistro per il main e l'aside
-main, aside {
-        padding: 15px 5px;
-        
-} */
 
 /* Margin e padding delle varie sezioni */
 section {
-    /* 15px per top e bottom e 5px per right e left */
-    margin: 15px 5px;
+    /* 25px per top e bottom e 5px per right e left */
+    margin: 25px 5px;
 
 }
 
