@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 1000px;
+    margin: auto;
+}
 /* fine configurazioni preliminari */
 
 /* Logo e sfondo header */
@@ -15,13 +19,21 @@ header {
 }
 
 /* Posiziono il logo più in basso (100px dal top) e per fare questo
-lo cambio il suo position da quello static di default a relative */
+lo cambio il suo position da quello static di default a relative.
+Inoltre nella versione "bonus" lo sposto del 20% da sinistra */
 .image-header {
     position: relative;
     width: 20%;
     top: 100px;
+    left: 20%;
 }
 
+/* Regolazione immagini per BONUS con container da 1000px e margin auto */
+img.image-alignment {
+    width: 49%;
+    object-fit: none;
+    height: 361px;
+}
 h1 {
     font-size: 50px;
     font-weight: 900;
